@@ -1,6 +1,6 @@
 # Easy1 Quick Writeup
 
-1. Recognize the first part of the ciphertext (up to the '=') is base64, so throw that into cyberchef to get the plaintext: GUELPHcss is the best club ever ;) polyalphabetic ciphers are also the best
+1. Recognize the first part of the ciphertext (up to the '=') is a base64 string, so throw that into cyberchef to get the plaintext: GUELPHcss is the best club ever ;) polyalphabetic ciphers are also the best
 
 2. What is a polyalphabetic cipher? A google search reveals that it is a type of cipher which uses multiple alphabets instead of just one. The same google search shows me some of the most common/widely known polyalphabetic ciphers. We will try the vigenere cipher which seems to be a well known one.
 
