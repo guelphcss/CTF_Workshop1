@@ -2,7 +2,7 @@
 
 1. We are given an image of the GCSS logo (beautiful) and a text file saying that there's something hidden in the image. We open the image and it's pretty low res, so nothing really to analyse here.
 
-2. Let's try strings on the image. We find a comment, mocking our attempts at using strings. Alright. 
+2. Let's try strings on the image. We find a comment mocking our attempts at using strings. Alright. 
 
 3. Since there is a comment, we know the metadata of the image must have been altered. Let's check if we can find anything else in the metadata using a tool: exiftool gcss.jpg
 
