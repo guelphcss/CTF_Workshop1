@@ -6,7 +6,7 @@
 
 3. Sometimes files can be embedded inside other files, so let's try to figure out how to extract it. We will use a tool called binwalk to find embedded files. 
 
-4. We run the command 'binwalk -e definitely-doesnt-contain-the-flag.docx' (the -e option tells binwalk to extract any embedded files that it finds.
+4. We run the command 'binwalk -e definitely-doesnt-contain-the-flag.docx' (the -e option tells binwalk to extract any embedded files that it finds).
 
 5. After extracting, a new directory with the extractions is created. Let's cd into it. Another directory '0', cd into it.
 
